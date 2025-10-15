@@ -7,8 +7,8 @@
 - `yref` definitions through `refs` in line 59
 - Changing to next `yref` once the current one was reached
 
-### `env.py`
-- New logic in `CartPoleEnv.step()` to check success
-
 ### `setup_ocp.py`
 - Changed the cost expressions to have `sin(theta), cos(theta)` instead of `theta`
+
+### `leap-c/examples/cartpole/env.py`
+- New logic in `CartPoleEnv.step()` to check success
